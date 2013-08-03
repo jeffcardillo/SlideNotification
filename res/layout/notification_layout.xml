@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+	<LinearLayout
+            android:id="@+id/notification_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-40dp"
+            android:background="@color/i_like_this_blue"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/notification_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_small"
+                android:textStyle="normal"
+                android:layout_weight="1"
+                android:text=""/>
+            
+            <ImageButton 
+                android:id="@+id/notification_close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/close_x"
+                android:visibility="gone" />
+        </LinearLayout>
+</merge>

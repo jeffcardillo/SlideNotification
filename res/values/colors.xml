@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="i_like_this_blue">#26AEEE</color>
+
+    <!-- layout colors -->
+
+    <!-- Button Color -->
+
+    <!-- paydiant font color codes to be used within the app -->
+
+    <!-- standard color codes to be used within the app -->
+    <color name="white">#FFFFFF</color>
+
+</resources>
