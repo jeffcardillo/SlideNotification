@@ -25,5 +25,7 @@ This will trigger a notification message to show on the screen, and it will auto
 <i><b>hideNotification();</b></i>
 Programmatically dismiss the notification message.
 
+See a sample video of the demo app at: <a href="http://www.youtube.com/watch?v=AEBea7zQRag">http://www.youtube.com/watch?v=AEBea7zQRag</a>
+
 Compatible with gingerbread+
 
