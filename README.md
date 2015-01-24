@@ -15,8 +15,8 @@ The slide in notification functionality is fairly easy to incorporate in to your
 
 Now, from your activity you can trigger the notification with the following calls:
 
-<i><b>postNotification(String message, boolean closeable);</b></i>
-This will trigger a notification message to show on the screen. By passing "true" in for closeable, an icon with an "x" will be displayed that allows the user to manually cause the message to be closed. Using "false" for closeable shows a message that cannot be manually closed by the user (but can be programmatically closed with hideNotification()). 
+<i><b>postNotification(String message, boolean closable);</b></i>
+This will trigger a notification message to show on the screen. By passing "true" in for closable, an icon with an "x" will be displayed that allows the user to manually cause the message to be closed. Using "false" for closable shows a message that cannot be manually closed by the user (but can be programmatically closed with hideNotification()). 
 
 
 <i><b>postTimedNotification(String message);</b></i>
